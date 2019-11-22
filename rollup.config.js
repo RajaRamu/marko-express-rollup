@@ -10,7 +10,7 @@ export default {
   input: path.join(__dirname, 'routes/index/template.marko'),
   plugins: [
     marko({
-      hydrate: true
+      hydrate: false
     }),
     nodeResolvePlugin({
       browser: true,
